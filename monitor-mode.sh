@@ -1,5 +1,4 @@
 #!/bin/bash
-\033[1m \e[32m
 echo -e "Enter interface"
 read interface
 ifconfig $interface down
