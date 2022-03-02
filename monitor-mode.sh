@@ -1,6 +1,7 @@
 #!/bin/bash
 echo -e "Enter interface"
-read interface
+read interface;
+clear
 ifconfig $interface down
 iwconfig $interface mode monitor
 ifconfig $interface up
